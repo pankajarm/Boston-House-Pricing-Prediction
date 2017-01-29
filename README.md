@@ -47,10 +47,15 @@ m1 is the slope (relationship factor ) between x1 and y, m2 is the slope between
 b is constant value 
 
 
-Long Story short, They way it works (atleast in my understanding..), is SciKit Learn LinearRegression model will try to create a model of equation type y = mX + b from the given data which has BMI (X) and Life Expectancy (y), via fitting all values of x1 in relationship to y by finding slope m and by adding b (a constant value) to it.
-same goest to other variables x2, x3, ..., x13
+Long Story short, They way it works (atleast in my understanding..), is SciKit Learn LinearRegression model will try to create a model of equation type y = m1x1+ m2x2 + m3x3 +.....mnxn +b from the given data which has multiple variables (x1,x2,x3...xn) and House Median Value (y), via fitting all values of x1 in relationship to y by finding slope m and by adding b (a constant value) to it.
 
-Basically, by using SciKit Learn Linear Regression fit method, we are telling it to find correct relationhip for example, between given Data of x1 (CRIME in the Area) and y (Median House Value)
+Basically, by using SciKit Learn Linear Regression fit method, we are telling it to find correct relationhip for example, between given Data of x1 (CRIME in the Area) with y (Median House Value)
+
+or
+
+x2 (proportion of residential land zoned for lots over 25,000 sq.ft.) with y (Median House Value) 
+
+and so on with all variables..
 
 Hope it all make sense to you...
 
