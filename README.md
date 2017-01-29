@@ -51,14 +51,18 @@ Long Story short, They way it works (atleast in my understanding..), is SciKit L
 
 Basically, by using SciKit Learn Linear Regression fit method, we are telling it to find correct relationhip for example, between given Data of x1 (CRIME in the Area) with y (Median House Value)
 
-or
+and
 
 x2 (proportion of residential land zoned for lots over 25,000 sq.ft.) with y (Median House Value) 
 
-and so on with all variables..
+and 
+
+x3 (proportion of non-retail business acres per town ) with y (Median House Value) 
+
+and so on ...till x13 (% lower status of the population ) with y (Median House Value) 
 
 Hope it all make sense to you...
 
-Read more about varibles relationship to house pricing here.
+Read more about above varibles relationship to house pricing in Boston here.
 
 https://archive.ics.uci.edu/ml/datasets/Housing
