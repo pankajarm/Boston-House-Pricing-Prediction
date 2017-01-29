@@ -15,17 +15,29 @@ In our example (These are given from data):
 y is  MEDV: Median value of owner-occupied homes in $1000's
 
 x1. CRIM: per capita crime rate by town 
+
 x2. ZN: proportion of residential land zoned for lots over 25,000 sq.ft. 
+
 x3. INDUS: proportion of non-retail business acres per town 
+
 x4. CHAS: Charles River dummy variable (= 1 if tract bounds river; 0 otherwise) 
+
 x5. NOX: nitric oxides concentration (parts per 10 million) 
+
 x6. RM: average number of rooms per dwelling 
+
 x7. AGE: proportion of owner-occupied units built prior to 1940 
+
 x8. DIS: weighted distances to five Boston employment centres 
+
 x9. RAD: index of accessibility to radial highways 
+
 x10. TAX: full-value property-tax rate per $10,000 
+
 x11. PTRATIO: pupil-teacher ratio by town 
+
 x12. B: 1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town 
+
 x13. LSTAT: % lower status of the population 
 
 These will be generated during model fit process
